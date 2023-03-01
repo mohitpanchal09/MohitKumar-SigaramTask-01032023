@@ -1,0 +1,37 @@
+.container {
+    height: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .conatiner-body {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .box-blue {
+    background-color: blue;
+  }
+  
+  .box-red {
+    background-color: red;
+  }
